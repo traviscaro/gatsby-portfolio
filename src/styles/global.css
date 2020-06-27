@@ -1,4 +1,23 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand&display=swap');
 
-html {
-  background-color: lavenderblush;
+/* Setup theme variables */
+:root {
+    /* font */
+    --header-font: 'Montserrat', sans-serif;
+    --text-font: 'Quicksand', sans-serif;
+    --default-font-size: 1em;
+    --text-light-color: #F5F5F5;
+    --text-dark-color: #A2A3B9;
+    
+    /* background */
+    --main-bg-color: #1A1A23;
+    --primary-color: #339BEB;
+    --secondary-color: #FD410D;
+}
+
+body {
+    font-family: var(--text-font);
+    font-size: var(--default-font-size);
+    background-color: var(--main-bg-color);
 }
