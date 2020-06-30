@@ -19,5 +19,6 @@
 body {
     font-family: var(--text-font);
     font-size: var(--default-font-size);
+    color: var(--text-light-color);
     background-color: var(--main-bg-color);
 }
