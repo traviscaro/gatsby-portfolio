@@ -4,34 +4,38 @@
 /* Setup theme variables */
 :root {
     /* font */
-    --header-font: 'Montserrat', sans-serif;
-    --text-font: 'Quicksand', sans-serif;
-    --font-size: 1em;
+    --font-title: 'Quicksand', sans-serif;
+    --font-content: 'Quicksand', sans-serif;
+    /* --font-content: 'Montserrat', sans-serif; */
+    --font-size: 1.5em;
     
     /* colors */
-    --bg-color: #252525;
-    --primary-color: #00A3FF;
-    --secondary-color: #00FFC2;
-    --ternary-color: #FF9900;
-    --font-light: #F1F1F1;
-    --font-muted: #A0A0A0;
+    --color-primary: #00A3FF;
+    --color-secondary: #00FFC2;
+    --color-ternary: #FF9900;
+    --color-muted: #A0A0A0;
+    --color-light: #F1F1F1;
+    --color-dark: #252525;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
 }
 
 body {
-    font-family: var(--text-font);
+    font-family: var(--font-content);
     font-size: var(--font-size);
 
-    color: var(--font-light);
-    background-color: var(--bg-color);
+    color: var(--color-white);
+    background-color: var(--color-dark);
 }
 
 a {
-    color: var(--primary-color); 
+    color: var(--color-primary); 
 }
 
 .intro {
+    font-family: var(--font-title);
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .social-media-icon-bar {

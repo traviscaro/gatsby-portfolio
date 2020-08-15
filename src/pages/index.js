@@ -20,10 +20,6 @@ const IndexPage = () => (
 
       In the meantime, feel free to say <a href="mailto:hello@traviscaro.dev">hello@traviscaro.dev</a>
     </p>
-    {/* <p>
-      I'm a software engineer.
-    </p> */}
-
     
   </Layout>
 )
