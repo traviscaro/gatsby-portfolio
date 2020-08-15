@@ -26,7 +26,7 @@ export default ({ children }) => {
   // https://reactjs.org/docs/fragments.html#short-syntax
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <main
         style={{
           margin: `0 auto`,
@@ -36,7 +36,7 @@ export default ({ children }) => {
       >
         {children}
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }
