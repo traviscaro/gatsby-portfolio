@@ -1,24 +1,39 @@
 /* Import fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 /* Setup theme variables */
 :root {
     /* font */
     --header-font: 'Montserrat', sans-serif;
     --text-font: 'Quicksand', sans-serif;
-    --default-font-size: 1em;
-    --text-light-color: #F5F5F5;
-    --text-dark-color: #A2A3B9;
+    --font-size: 1em;
     
-    /* background */
-    --main-bg-color: #1A1A23;
-    --primary-color: #339BEB;
-    --secondary-color: #FD410D;
+    /* colors */
+    --bg-color: #252525;
+    --primary-color: #00A3FF;
+    --secondary-color: #00FFC2;
+    --ternary-color: #FF9900;
+    --font-light: #F1F1F1;
+    --font-muted: #A0A0A0;
 }
 
 body {
     font-family: var(--text-font);
-    font-size: var(--default-font-size);
-    color: var(--text-light-color);
-    background-color: var(--main-bg-color);
+    font-size: var(--font-size);
+
+    color: var(--font-light);
+    background-color: var(--bg-color);
+}
+
+a {
+    color: var(--primary-color); 
+}
+
+.intro {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.social-media-icon-bar {
+
 }
