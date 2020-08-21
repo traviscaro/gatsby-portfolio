@@ -12,6 +12,15 @@ import Header from "./header"
 import Footer from "./footer"
 import "./layout.css"
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { far } from '@fortawesome/pro-regular-svg-icons'
+import { fal } from '@fortawesome/pro-light-svg-icons'
+import { fad } from '@fortawesome/pro-duotone-svg-icons'
+
+library.add(fab, fas, far, fal, fad)
+
 export default ({ children }) => {
   // const data = useStaticQuery(graphql`
   //   query SiteTitleQuery {
