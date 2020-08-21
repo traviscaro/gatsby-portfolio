@@ -1,39 +1,48 @@
 /* Import fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap");
 
 /* Setup theme variables */
 :root {
-    /* font */
-    --header-font: 'Montserrat', sans-serif;
-    --text-font: 'Quicksand', sans-serif;
-    --font-size: 1em;
-    
-    /* colors */
-    --bg-color: #252525;
-    --primary-color: #00A3FF;
-    --secondary-color: #00FFC2;
-    --ternary-color: #FF9900;
-    --font-light: #F1F1F1;
-    --font-muted: #A0A0A0;
+  /* font */
+  --font-title: "Quicksand", sans-serif;
+  --font-content: "Quicksand", sans-serif;
+  /* --font-content: 'Montserrat', sans-serif; */
+  --font-size: 1.5em;
+
+  /* colors */
+  --color-primary: #00a3ff;
+  --color-secondary: #00ffc2;
+  --color-ternary: #ff9900;
+  --color-muted: #a0a0a0;
+  --color-light: #f1f1f1;
+  --color-dark: #252525;
+  --color-white: #ffffff;
+  --color-black: #000000;
 }
 
 body {
-    font-family: var(--text-font);
-    font-size: var(--font-size);
+  font-family: var(--font-content);
+  font-size: var(--font-size);
 
-    color: var(--font-light);
-    background-color: var(--bg-color);
+  color: var(--color-white);
+  background-color: var(--color-dark);
 }
 
 a {
-    color: var(--primary-color); 
+  color: var(--color-primary);
 }
 
 .intro {
-    text-align: center;
-    font-size: 1.5em;
+  font-family: var(--font-title);
+  text-align: center;
+  font-size: 2em;
 }
 
-.social-media-icon-bar {
+.social-media-icon-container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
 
+.social-media-link {
 }
