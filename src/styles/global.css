@@ -29,6 +29,10 @@ body {
 }
 
 a {
+  color: var(--color-muted);
+}
+
+a:hover {
   color: var(--color-primary);
 }
 
@@ -38,11 +42,49 @@ a {
   font-size: 2em;
 }
 
-.social-media-icon-container {
-  padding: 1rem;
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .social-media-link {
+  margin: 16px;
+  color: var(--color-muted);
+}
+
+.social-media-link:hover {
+  color: var(--color-primary);
+}
+
+.btn-contact-container {
+  text-align: center;
+}
+
+.btn-contact {
+  border: 2px solid var(--color-muted);
+  color: var(--color-muted);
+  padding: 16px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn-contact:hover {
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
+.btn-contact:hover {
+  border: 2px solid var(--color-primary);
+  /* background: var(--color-primary); */
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.copyright {
+  font-size: small;
+  margin: 8px;
 }

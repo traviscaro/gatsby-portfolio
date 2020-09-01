@@ -48,7 +48,8 @@ export default ({ children }) => {
       >
         {children}
       </main>
-      {/* <Footer /> */}
+      
+      <Footer />
     </>
   )
 }

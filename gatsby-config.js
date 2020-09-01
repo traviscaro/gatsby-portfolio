@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Travis Caro | Software Engineer`,
-    siteUrl: `https://traviscaro.com`,
+    siteUrl: `https://traviscaro.dev`,
     description: `Travis Caro's personal website and portfolio`,
     author: `Travis Caro`,
   },
