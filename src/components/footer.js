@@ -12,16 +12,14 @@ export default () => (
         href="https://www.linkedin.com/in/travisbcaro/"
         className="social-media-link"
       >
-        <FontAwesomeIcon icon={["fab", "linkedin-in"]} size="lg"/>
+        <FontAwesomeIcon icon={["fab", "linkedin-in"]} size="lg" />
       </a>
 
       <a href="https://github.com/tbcaro" className="social-media-link">
-        <FontAwesomeIcon icon={["fab", "github"]} size="lg"/>
+        <FontAwesomeIcon icon={["fab", "github"]} size="lg" />
       </a>
     </div>
 
-    <div className="copyright">
-      © {new Date().getFullYear()} Travis Caro
-    </div>
+    <div className="copyright">© {new Date().getFullYear()} Travis Caro</div>
   </footer>
 )
