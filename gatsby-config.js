@@ -17,6 +17,16 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Travis Caro | Software Engineer`,
+        shortname: `Travis Caro`,
+        startUrl: `/`,
+        display: `minimal-ui`,
+        icon: `src/images/tc-logo-primary.png`
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
